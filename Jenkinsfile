@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build ') {
       steps {
-        sh 'docker build -t image1 .'
+        sh 'yum install docker'
       }
     }
 
